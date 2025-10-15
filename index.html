@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative FMCG Products - Investment Brochure</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Lokottara Seva Foundation</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#cover" class="nav-link active">Home</a></li>
+                <li><a href="#executive-summary" class="nav-link">Overview</a></li>
+                <li><a href="#portfolio" class="nav-link">Products</a></li>
+                <li><a href="#innovation" class="nav-link">Innovation</a></li>
+                <li><a href="#market" class="nav-link">Market</a></li>
+                <li><a href="#investment" class="nav-link">Investment</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page 1: Cover Page -->
+    <section id="cover" class="page cover-page">
+        <div class="container">
+            <div class="cover-content">
+                <div class="logo-placeholder" style="display:flex; justify-content:center; align-items:center; margin-bottom:20px;">
+                <div class="logo-circle" style="width:160px; height:160px; background:#fff; border-radius:50%; display:flex; justify-content:center; align-items:center; box-shadow:0 2px 12px rgba(0,0,0,0.08);">
+                    <img src="LOGO1.jpg" alt="Lokottara Seva Foundation Logo" style="width:140px; height:140px; object-fit:cover; border-radius:50%;">
+                </div>
+            </div>
+                <h1 class="company-name">Lokottara Seva Foundation</h1>
+                <p class="tagline">Innovating Traditional Foods for Modern Health</p>
+                <div class="cover-highlights">
+                    <div class="highlight-card">
+                        <h3>5+</h3>
+                        <p>Product Categories</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>₹3.5Cr</h3>
+                        <p>Funding Requirement</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>₹15.2Cr</h3>
+                        <p>Projected Revenue Y3</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Contact:</strong> [+91 9658834578, +91 8249392377] | [lokottarasevafoundation@gmail.company.com]</p>
+                    <p><strong>Location:</strong> 77G-019, Ram Mandir Road, Phulbani, Kandhamal, Odisha, India</p>
+                </div>
+                <button class="btn btn--primary btn--lg" onclick="scrollToSection('executive-summary')">View Presentation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: Executive Summary -->
+    <section id="executive-summary" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Executive Summary</h2>
+                <p class="page-subtitle">Revolutionizing FMCG with Health-Focused Innovation</p>
+            </div>
+            <div class="executive-grid">
+                <div class="executive-card">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Market Opportunity</h3>
+                            <p>The Indian FMCG market is experiencing unprecedented growth in health-conscious products. Our innovative product line addresses the ₹46,300 Cr market opportunity across healthy snacks, functional beverages, and probiotic foods.</p>
+                            <ul class="benefit-list">
+                                <li>Healthy Snacks: ₹35,000 Cr (12% CAGR)</li>
+                                <li>Functional Beverages: ₹8,500 Cr (15% CAGR)</li>
+                                <li>Probiotic Foods: ₹2,800 Cr (18% CAGR)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="executive-card">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Innovation Edge</h3>
+                            <p>Our proprietary technologies transform traditional food processing, delivering superior nutrition while maintaining authentic taste and extending shelf life naturally.</p>
+                            <div class="innovation-stats">
+                                <div class="stat">
+                                    <span class="stat-number">90%</span>
+                                    <span class="stat-label">Less Oil</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">5x</span>
+                                    <span class="stat-label">Protein</span>
+                                </div>
+                                <div class="stat">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Natural</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="executive-summary-text">
+                <p><strong>Investment Thesis:</strong> We are seeking ₹3.5 Cr funding to scale production, establish distribution networks, and capture market share in India's rapidly growing health food segment. Our experienced team, innovative processes, and strong market validation position us for 3-year revenue projection of ₹15.2 Cr with 28% profit margins.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3: Product Portfolio Overview -->
+    <section id="portfolio" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Product Portfolio</h2>
+                <p class="page-subtitle">Five Innovative Categories Redefining Healthy Food</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="product-category-card" data-category="snacks">
+                    <div class="card product-card">
+                        <div class="product-image-placeholder">
+                            <div class="product-icon">🥜</div>
+                        </div>
+                        <div class="card__body">
+                            <h3>Air-Fried Snacks</h3>
+                            <p>Revolutionary healthy snacking with 90% less oil</p>
+                            <div class="product-features">
+                                <span class="feature-tag">90% Less Oil</span>
+                                <span class="feature-tag">Retained Nutrients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-category-card" data-category="milk">
+                    <div class="card product-card">
+                        <div class="product-image-placeholder">
+                            <div class="product-icon">🥛</div>
+                        </div>
+                        <div class="card__body">
+                            <h3>Composite Milk Products</h3>
+                            <p>Protein-rich blends with soya, cow milk, oats, almonds</p>
+                            <div class="product-features">
+                                <span class="feature-tag">High Protein</span>
+                                <span class="feature-tag">Multiple Nutrients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-category-card" data-category="curd">
+                    <div class="card product-card">
+                        <div class="product-image-placeholder">
+                            <div class="product-icon">🍶</div>
+                        </div>
+                        <div class="card__body">
+                            <h3>Curd &amp; Dairy Innovations</h3>
+                            <p>Probiotic-rich fermented dairy products</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Live Cultures</span>
+                                <span class="feature-tag">Digestive Health</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-category-card" data-category="turmeric">
+                    <div class="card product-card">
+                        <div class="product-image-placeholder">
+                            <div class="product-icon">🟡</div>
+                        </div>
+                        <div class="card__body">
+                            <h3>Turmeric Milk &amp; Powders</h3>
+                            <p>Immunity boosting functional beverages</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Anti-inflammatory</span>
+                                <span class="feature-tag">Immunity Boost</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Turmeric Soap Card -->
+                <div class="product-category-card" data-category="turmeric-soap">
+                <div class="card product-card">
+                    <div class="product-image-placeholder">
+                    <img src="turmeric-soap.jpg" alt="Turmeric Soap" style="width:64px; height:64px; object-fit:contain; border-radius:8px; margin:auto; display:block;">
+                    </div>
+                    <div class="cardbody">
+                    <h3>Turmeric Soap</h3>
+                    <p>Handcrafted herbal bathing bar with natural turmeric for skin wellness.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Antimicrobial</span>
+                        <span class="feature-tag">Natural Ingredients</span>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Mahua Candy Card -->
+                <div class="product-category-card" data-category="mahua-candy">
+                <div class="card product-card">
+                    <div class="product-image-placeholder">
+                    <img src="mahua-candy.jpg" alt="Mahua Candy" style="width:64px; height:64px; object-fit:contain; border-radius:8px; margin:auto; display:block;">
+                    </div>
+                    <div class="cardbody">
+                    <h3>Mahua Candy</h3>
+                    <p>Authentic flower-shaped candies made from Madhuca longifolia for a healthy, traditional sweet.</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Botanical Ingredients</span>
+                        <span class="feature-tag">Artisan Crafted</span>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="product-category-card" data-category="soda">
+                    <div class="card product-card">
+                        <div class="product-image-placeholder">
+                            <div class="product-icon">🥤</div>
+                        </div>
+                        <div class="card__body">
+                            <h3>Fermented Turmeric Soda</h3>
+                            <p>Probiotic sparkling beverage with digestive benefits</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Probiotic Cultures</span>
+                                <span class="feature-tag">Natural Fermentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Detail Pages -->
+    <section id="product-details" class="page product-details-section">
+        <div class="container">
+            <!-- Air-Fried Snacks Detail -->
+            <div class="product-detail" id="snacks-detail">
+                <div class="product-detail-grid">
+                    <div class="product-info">
+                        <h2>Air-Fried Snacks Collection</h2>
+                        <p class="product-description">Revolutionary healthy snacking technology that reduces oil content by 90% while maintaining authentic taste and crispy texture.</p>
+                        <div class="product-variants">
+                            <h4>Product Range:</h4>
+                            <ul class="variant-list">
+                                <li>Traditional Mixture</li>
+                                <li>Mung Dal Bhujia</li>
+                                <li>Alu Bhujia</li>
+                                <li>Masala Peanuts</li>
+                                <li>Roasted Chana</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-benefits">
+                        <h4>Key Benefits:</h4>
+                        <div class="benefit-grid">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">💧</div>
+                                <span>90% Less Oil</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🌱</div>
+                                <span>Retained Nutrients</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🥨</div>
+                                <span>Crispy Texture</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">📅</div>
+                                <span>Extended Shelf Life</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Composite Milk Detail -->
+            <div class="product-detail" id="milk-detail">
+                <div class="product-detail-grid">
+                    <div class="product-info">
+                        <h2>Composite Milk Products</h2>
+                        <p class="product-description">Advanced protein blending technology combining the nutritional benefits of multiple sources for superior health outcomes.</p>
+                        <div class="product-variants">
+                            <h4>Product Range:</h4>
+                            <ul class="variant-list">
+                                <li>Multi-Protein Milk</li>
+                                <li>Oat Almond Blend</li>
+                                <li>Soya Enriched Milk</li>
+                                <li>Fortified Variants</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-benefits">
+                        <h4>Key Benefits:</h4>
+                        <div class="benefit-grid">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">💪</div>
+                                <span>High Protein</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🌟</div>
+                                <span>Multiple Nutrients</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🤝</div>
+                                <span>Lactose Friendly</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">👑</div>
+                                <span>Premium Taste</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Curd & Dairy Detail -->
+            <div class="product-detail" id="curd-detail">
+                <div class="product-detail-grid">
+                    <div class="product-info">
+                        <h2>Curd &amp; Dairy Innovations</h2>
+                        <p class="product-description">Probiotic-rich fermented dairy products using traditional methods enhanced with modern quality control.</p>
+                        <div class="product-variants">
+                            <h4>Product Range:</h4>
+                            <ul class="variant-list">
+                                <li>Multi-Protein Curd</li>
+                                <li>Greek Style Curd</li>
+                                <li>Flavored Variants</li>
+                                <li>Fortified Options</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-benefits">
+                        <h4>Key Benefits:</h4>
+                        <div class="benefit-grid">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🦠</div>
+                                <span>Live Cultures</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🫁</div>
+                                <span>Digestive Health</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">💪</div>
+                                <span>High Protein</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🏛️</div>
+                                <span>Traditional Taste</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Turmeric Products Detail -->
+            <div class="product-detail" id="turmeric-detail">
+                <div class="product-detail-grid">
+                    <div class="product-info">
+                        <h2>Turmeric Milk &amp; Functional Powders</h2>
+                        <p class="product-description">Immunity-boosting functional beverages combining ancient Ayurvedic wisdom with modern convenience.</p>
+                        <div class="product-variants">
+                            <h4>Product Range:</h4>
+                            <ul class="variant-list">
+                                <li>Golden Milk Mix</li>
+                                <li>Functional Milk Powder</li>
+                                <li>Instant Variants</li>
+                                <li>Organic Options</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-benefits">
+                        <h4>Key Benefits:</h4>
+                        <div class="benefit-grid">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🔥</div>
+                                <span>Anti-inflammatory</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🛡️</div>
+                                <span>Immunity Boost</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🌿</div>
+                                <span>Natural Ingredients</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">⏱️</div>
+                                <span>Quick Preparation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Turmeric Soap Detail -->
+            <div class="product-detail" id="turmeric-soap-detail">
+            <div class="product-detail-grid">
+                <div class="product-info">
+                <img src="turmeric-soap.jpg" alt="Turmeric Soap" style="width:64px; height:64px; object-fit:contain; border-radius:8px; margin:auto; display:block; margin:0 auto;">
+                <h2>Turmeric Soap</h2>
+                <p class="product-description">
+                    Handcrafted premium soap enriched with turmeric, offering antimicrobial protection, soothing skin benefits, and naturally radiant cleansing.
+                </p>
+                <div class="product-variants">
+                    <h4>Product Range</h4>
+                    <ul class="variant-list">
+                    <li>Classic Turmeric</li>
+                    <li>Neem Turmeric Blend</li>
+                    <li>Honey & Turmeric</li>
+                    </ul>
+                </div>
+                <div class="product-benefits">
+                    <h4>Key Benefits</h4>
+                    <div class="benefit-grid">
+                    <div class="benefit-item"><span>Antimicrobial</span></div>
+                    <div class="benefit-item"><span>Softening</span></div>
+                    <div class="benefit-item"><span>Natural Fragrance</span></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Mahua Candy Detail -->
+            <div class="product-detail" id="mahua-candy-detail">
+            <div class="product-detail-grid">
+                <div class="product-info">
+                <img src="mahua-candy.jpg" alt="Mahua Candy" style="width:64px; height:64px; object-fit:contain; border-radius:8px; margin:auto; display:block; margin:0 auto;">
+                <h2>Mahua Candy</h2>
+                <p class="product-description">
+                    Botanical candies made from pure Madhuca longifolia flowers, naturally sweet, with authentic flavor and beautiful flower shapes.
+                </p>
+                <div class="product-variants">
+                    <h4>Product Range</h4>
+                    <ul class="variant-list">
+                    <li>Classic Mahua Candy</li>
+                    <li>Mahua Jaggery Candy</li>
+                    <li>Mahua Mixed Fruit</li>
+                    </ul>
+                </div>
+                <div class="product-benefits">
+                    <h4>Key Benefits</h4>
+                    <div class="benefit-grid">
+                    <div class="benefit-item"><span>Rich in Antioxidants</span></div>
+                    <div class="benefit-item"><span>Local Ingredients</span></div>
+                    <div class="benefit-item"><span>No Refined Sugar</span></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Fermented Soda Detail -->
+            <div class="product-detail" id="soda-detail">
+                <div class="product-detail-grid">
+                    <div class="product-info">
+                        <h2>Fermented Turmeric Soda</h2>
+                        <p class="product-description">India's first probiotic turmeric soda combining traditional fermentation with modern sparkling beverage technology.</p>
+                        <div class="product-variants">
+                            <h4>Product Range:</h4>
+                            <ul class="variant-list">
+                                <li>Classic Turmeric</li>
+                                <li>Ginger Turmeric</li>
+                                <li>Mint Variant</li>
+                                <li>Zero Sugar Options</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-benefits">
+                        <h4>Key Benefits:</h4>
+                        <div class="benefit-grid">
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🦠</div>
+                                <span>Probiotic Cultures</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🫁</div>
+                                <span>Digestive Health</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🧪</div>
+                                <span>Natural Fermentation</span>
+                            </div>
+                            <div class="benefit-item">
+                                <div class="benefit-icon">🥤</div>
+                                <span>Refreshing Taste</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 6: Innovation & Technology -->
+    <section id="innovation" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Innovation &amp; Technology</h2>
+                <p class="page-subtitle">Proprietary Processes Driving Market Differentiation</p>
+            </div>
+            <div class="innovation-grid">
+                <div class="innovation-card">
+                    <div class="card">
+                        <div class="innovation-icon">🔬</div>
+                        <div class="card__body">
+                            <h3>Air-Frying Technology</h3>
+                            <p>Proprietary process reducing oil content by 90% while maintaining taste and texture through controlled heat circulation and pressure optimization.</p>
+                            <div class="tech-specs">
+                                <span class="spec">Patent Pending</span>
+                                <span class="spec">Scalable Process</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-card">
+                    <div class="card">
+                        <div class="innovation-icon">⚗️</div>
+                        <div class="card__body">
+                            <h3>Composite Nutrition</h3>
+                            <p>Advanced blending technology combining multiple protein sources for enhanced nutritional profile and improved bioavailability.</p>
+                            <div class="tech-specs">
+                                <span class="spec">5x Protein</span>
+                                <span class="spec">Better Absorption</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-card">
+                    <div class="card">
+                        <div class="innovation-icon">🧬</div>
+                        <div class="card__body">
+                            <h3>Traditional Fermentation</h3>
+                            <p>Time-tested fermentation processes adapted for commercial scale with quality consistency and enhanced probiotic cultures.</p>
+                            <div class="tech-specs">
+                                <span class="spec">Live Cultures</span>
+                                <span class="spec">Traditional Methods</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="innovation-card">
+                    <div class="card">
+                        <div class="innovation-icon">⏰</div>
+                        <div class="card__body">
+                            <h3>Shelf-Life Extension</h3>
+                            <p>Natural preservation methods extending product life without artificial additives through controlled environment processing.</p>
+                            <div class="tech-specs">
+                                <span class="spec">100% Natural</span>
+                                <span class="spec">Extended Life</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Page6.1: Product Catalogue Horizontal Slider -->
+<div class="product-slider-section">
+  <h3 style="text-align:center; margin-bottom:16px;">Product Catalogue</h3>
+  <div class="product-slider" style="overflow-x:auto; white-space:nowrap; padding-bottom:16px;">
+    <div class="product-slide" style="display:inline-block; width:200px; margin-right:16px;">
+      <img src="snacks1.jpg" alt="Air-Fried Snacks" style="width:100%; border-radius:12px;">
+      <div style="text-align:center; margin-top:8px;">Air-Fried Snacks</div>
+    </div>
+    <div class="product-slide" style="display:inline-block; width:200px; margin-right:16px;">
+      <img src="curd1.jpg" alt="Curd & Dairy" style="width:100%; border-radius:12px;">
+      <div style="text-align:center; margin-top:8px;">Curd & Dairy</div>
+    </div>
+    <div class="product-slide" style="display:inline-block; width:200px; margin-right:16px;">
+      <img src="turmeric1.jpg" alt="Turmeric Milk & Powders" style="width:100%; border-radius:12px;">
+      <div style="text-align:center; margin-top:8px;">Turmeric Milk & Powders</div>
+    </div>
+    <div class="product-slide" style="display:inline-block; width:200px; margin-right:16px;">
+      <img src="turmeric-soap1.jpg" alt="Turmeric Soap" style="width:100%; border-radius:12px;">
+      <div style="text-align:center; margin-top:8px;">Turmeric Soap</div>
+    </div>
+    <div class="product-slide" style="display:inline-block; width:200px; margin-right:16px;">
+      <img src="mahua-candy1.jpg" alt="Mahua Candy" style="width:100%; border-radius:12px;">
+      <div style="text-align:center; margin-top:8px;">Mahua Candy</div>
+    </div>
+    <div class="product-slide" style="display:inline-block; width:200px; margin-right:16px;">
+      <img src="soda1.jpg" alt="Fermented Turmeric Soda" style="width:100%; border-radius:12px;">
+      <div style="text-align:center; margin-top:8px;">Fermented Turmeric Soda</div>
+    </div>
+    <!-- Add more products as desired -->
+  </div>
+</div>
+
+    <!-- Page 7: Market Opportunity -->
+    <section id="market" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Market Opportunity &amp; Business Case</h2>
+                <p class="page-subtitle">₹46,300 Cr Market with Strong Growth Trajectory</p>
+            </div>
+            <div class="market-analysis">
+                <div class="market-chart-container">
+                    <div class="chart-wrapper">
+                        <canvas id="marketChart"></canvas>
+                    </div>
+                </div>
+                <div class="market-stats">
+                    <div class="stat-card">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>₹35,000 Cr</h3>
+                                <p>Healthy Snacks Market</p>
+                                <span class="growth-rate">12% CAGR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>₹8,500 Cr</h3>
+                                <p>Functional Beverages</p>
+                                <span class="growth-rate">15% CAGR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>₹2,800 Cr</h3>
+                                <p>Probiotic Foods</p>
+                                <span class="growth-rate">18% CAGR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="business-case">
+                <div class="case-grid">
+                    <div class="case-item">
+                        <h4>Competitive Advantages</h4>
+                        <ul>
+                            <li>First-mover in air-fried traditional snacks</li>
+                            <li>Proprietary composite milk technology</li>
+                            <li>Traditional fermentation at commercial scale</li>
+                            <li>Strong IP portfolio and patent applications</li>
+                        </ul>
+                    </div>
+                    <div class="case-item">
+                        <h4>Target Segments</h4>
+                        <ul>
+                            <li>Health-conscious urban consumers (25-45 years)</li>
+                            <li>Premium retail chains and modern trade</li>
+                            <li>Corporate wellness programs</li>
+                            <li>Export markets (Middle East, SE Asia)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 8: Regulatory Compliance -->
+    <section id="compliance" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Regulatory Compliance &amp; Certifications</h2>
+                <p class="page-subtitle">Meeting All Quality &amp; Safety Standards</p>
+            </div>
+            <div class="compliance-grid">
+                <div class="compliance-item">
+                    <div class="card">
+                        <div class="certification-badge">
+                            <span class="status status--success">✓ Ready</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>FSSAI License</h3>
+                            <p>Food Safety and Standards Authority of India license application in process with all documentation prepared.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="compliance-item">
+                    <div class="card">
+                        <div class="certification-badge">
+                            <span class="status status--success">✓ Compliant</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>ISO 22000</h3>
+                            <p>Food Safety Management System compliance ensured through process design and quality protocols.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="compliance-item">
+                    <div class="card">
+                        <div class="certification-badge">
+                            <span class="status status--info">In Progress</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>HACCP Implementation</h3>
+                            <p>Hazard Analysis Critical Control Points system being implemented across all production processes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="compliance-item">
+                    <div class="card">
+                        <div class="certification-badge">
+                            <span class="status status--info">Planned</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>Organic Certification</h3>
+                            <p>Organic certification process planned for premium product variants to capture high-value market segment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="compliance-item">
+                    <div class="card">
+                        <div class="certification-badge">
+                            <span class="status status--success">✓ Ready</span>
+                        </div>
+                        <div class="card__body">
+                            <h3>Export Quality Standards</h3>
+                            <p>Products designed to meet international export requirements for Middle East and Southeast Asian markets.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 9: Investment & Financial Projections -->
+    <section id="investment" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Investment Ask &amp; Financial Projections</h2>
+                <p class="page-subtitle">₹3.5 Cr Funding for Market Leadership</p>
+            </div>
+            <div class="investment-overview">
+                <div class="funding-breakdown">
+                    <h3>Funding Utilization</h3>
+                    <div class="funding-chart-container">
+                        <canvas id="fundingChart"></canvas>
+                    </div>
+                </div>
+                <div class="financial-projections">
+                    <h3>Revenue Projections</h3>
+                    <div class="projection-chart-container">
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="financial-details">
+                <div class="projection-table">
+                    <h4>3-Year Financial Forecast</h4>
+                    <table class="finance-table">
+                        <thead>
+                            <tr>
+                                <th>Metrics</th>
+                                <th>Year 1</th>
+                                <th>Year 2</th>
+                                <th>Year 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Revenue</td>
+                                <td>₹2.5 Cr</td>
+                                <td>₹6.8 Cr</td>
+                                <td>₹15.2 Cr</td>
+                            </tr>
+                            <tr>
+                                <td>Profit Margin</td>
+                                <td>15%</td>
+                                <td>22%</td>
+                                <td>28%</td>
+                            </tr>
+                            <tr>
+                                <td>Net Profit</td>
+                                <td>₹37.5 L</td>
+                                <td>₹1.5 Cr</td>
+                                <td>₹4.3 Cr</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="investment-highlights">
+                    <h4>Investment Highlights</h4>
+                    <div class="highlight-grid">
+                        <div class="highlight">
+                            <div class="highlight-icon">📈</div>
+                            <div class="highlight-content">
+                                <h5>Strong Growth</h5>
+                                <p>6x revenue growth in 3 years</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-icon">💰</div>
+                            <div class="highlight-content">
+                                <h5>Healthy Margins</h5>
+                                <p>28% profit margin by Year 3</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-icon">🎯</div>
+                            <div class="highlight-content">
+                                <h5>Market Ready</h5>
+                                <p>Validated products &amp; processes</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-icon">🌍</div>
+                            <div class="highlight-content">
+                                <h5>Scalable Model</h5>
+                                <p>Export potential &amp; pan-India expansion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 10: Contact & Next Steps -->
+    <section id="contact" class="page">
+        <div class="container">
+            <div class="page-header">
+                <h2>Contact &amp; Next Steps</h2>
+                <p class="page-subtitle">Ready to Partner with Us</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Get in Touch</h3>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <strong>LSF</strong>
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Email:</strong> [lokottarasevafoundation@gmail.com]
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Phone:</strong> [+91 9658834578, +91 8249392377]
+                                </div>
+                                <div class="contact-item">
+                                    <strong>Address:</strong> 77G-019, Ram Mandir Road, Phulbani, Kandhamal, Odisha, India
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="next-steps-card">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3>Next Steps</h3>
+                            <div class="steps-list">
+                                <div class="step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h5>Initial Discussion</h5>
+                                        <p>Schedule meeting to discuss investment opportunity</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h5>Product Demo</h5>
+                                        <p>Sample tasting and technology demonstration</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h5>Due Diligence</h5>
+                                        <p>Detailed business plan and financial analysis</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h5>Partnership</h5>
+                                        <p>Finalize investment terms and accelerate growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-section">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>Request Meeting</h3>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label">Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Organization *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label">Email *</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Phone</label>
+                                    <input type="tel" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Interest Area</label>
+                                <select class="form-control">
+                                    <option>General Investment Discussion</option>
+                                    <option>Product Development Partnership</option>
+                                    <option>Distribution Partnership</option>
+                                    <option>Technology Licensing</option>
+                                    <option>Export Collaboration</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4" placeholder="Tell us about your interest and preferred meeting time..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--full-width">Schedule Meeting</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="download-section">
+                <p><strong>Want to share this presentation?</strong></p>
+                <div class="download-buttons">
+                    <button class="btn btn--outline" onclick="window.print()">Print Brochure</button>
+                    <button class="btn btn--secondary" onclick="downloadPDF()">Download PDF</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
